@@ -88,7 +88,7 @@ var TrashModel = function(_lable, _cell, remarks) {
     } else if (this.dayCell[j].length == 2 && this.dayCell[j].substr(0,1) == "*") {
     } else {
       // 不定期回収の場合（YYYYMMDD指定）
-      result_text = "不定期 ";
+      result_text = "隔週 ";
       this.regularFlg = 0;  // 定期回収フラグオフ
     }
   }
